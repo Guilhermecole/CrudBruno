@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input, button {
+  padding: 6px;
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.form-coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
